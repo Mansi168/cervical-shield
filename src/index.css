@@ -1179,3 +1179,114 @@ img.vert-move {
     transform:rotate(-20deg); 
 } 
 }
+
+.cervix-section{
+  height: auto;
+  width: auto;
+  /* display: flex; */
+}
+
+.cervix-div{
+  display: grid;
+  align-items: center;
+  margin: 3rem;
+}
+
+.cervix-head {
+  font-size: 3rem;
+  color: white;
+  background-color: plum;
+  display: grid;
+  align-items: center;
+  border-radius: 2rem;
+  justify-content: center;
+}
+
+.para-div{
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+}
+
+.cervix-tool-p{
+  margin: 2rem;
+  font-size: 1rem;
+  text-align: center; /* Align text horizontally */
+  color: black;
+}
+
+.bold-text {
+  font-weight: bold;
+  font-size: 1.2rem;
+  display: block; /* Ensure it's displayed as a block element */
+  margin-top: 10px;
+}
+
+.predict-link {
+  text-decoration: none; /* Remove default underline */
+}
+
+.button-container {
+  text-align: center; /* Align buttons to center */
+  margin-top: 20px; /* Add margin-top to create space between paragraph and button */
+}
+
+.predict-button {
+  background-color: plum; /* Blue color */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  font-size: 16px; /* Adjust font size as needed */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add some border radius */
+  cursor: pointer; /* Show pointer cursor on hover */
+  align-items: center;
+}
+
+.predict-button:hover {
+  background-color: #ae27a5; /* Darker blue color on hover */
+}
+
+.form-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.predict-form {
+  display: inline-block;
+  text-align: left;
+}
+
+.predict-form label {
+  display: block;
+  position: relative; /* Ensure label's position is relative */
+  margin-bottom: 10px;
+}
+
+.predict-form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* New CSS for info tooltips */
+.info-tooltip {
+  display: none;
+  position: absolute;
+  top: 100%; /* Position tooltip below the label */
+  left: 0; /* Align tooltip with the left edge of the label */
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+  font-size: 14px;
+  z-index: 1;
+}
+
+.predict-form label:hover .info-tooltip {
+  display: block;
+}

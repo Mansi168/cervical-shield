@@ -4,12 +4,16 @@ import Login from './components/account/Login'
 import Home from './pages/Home/Home';
 import Blog from './pages/Blog';
 import ReadingArea from './pages/ReadingArea/ReadingArea';
+import PredictPage from './pages/Prediction/predictPage';
+import Predict from './pages/Prediction/predict';
 
 function App() {
   return (
       <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/accounts' element={<Login />} />
+      <Route path='/predictpage' element={<PredictPage/>}/>
+      <Route path='/predict' element={<Predict/>}/>
       <Route path='/readingarea' element={<ReadingArea/>} />
       <Route path='/blog/:id' element={<Blog/>} />
       </Routes>
