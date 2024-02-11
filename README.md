@@ -38,7 +38,8 @@ Rajni's journey with cervical cancer may have been challenging, but her resilien
 
 
 # Key Features✨
-![image](https://github.com/i-am-SnehaChauhan/no-cotine/assets/94298791/f15cfbd5-4a56-4080-88e1-f69468664776)
+![image](https://github.com/i-am-SnehaChauhan/cervical-shield/assets/99342612/8dad2194-83d6-4058-92a7-05d5176d6dc6)
+
 
 
 ### Predictive Model: 
