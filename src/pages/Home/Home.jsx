@@ -183,7 +183,7 @@ const Home = () => {
                 A predictive model for cervical cancer, uses advanced algorithms to analyze risk factors and medical data to forecast cancer likelihood! </p><br></br>
               <div className="button">
                 <a
-                  href="./view/hacksolve.html"
+                  href="http://127.0.0.1:5500/cervical-shield/predict.html"
                   className="button-link"
                   style={{ color: "white" }}
                 >
