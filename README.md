@@ -1,5 +1,5 @@
+![image](https://github.com/i-am-SnehaChauhan/cervical-shield/assets/94298791/783a4dba-8b81-4893-9399-9a59fa084ecb)
 
-![13](https://github.com/i-am-SnehaChauhan/cervical-shield/assets/94298791/93dda185-1b7e-428b-b0de-3e5aa2851658)
 
 ## Introduction
 <table style="border: none;">
