@@ -1195,7 +1195,7 @@ img.vert-move {
 .cervix-head {
   font-size: 3rem;
   color: white;
-  background-color: plum;
+  background-color: rgb(234, 106, 121);
   display: grid;
   align-items: center;
   border-radius: 2rem;
@@ -1234,18 +1234,18 @@ img.vert-move {
 }
 
 .predict-button {
-  background-color: plum; /* Blue color */
+  background-color: rgb(234, 106, 121); 
   color: white; /* White text color */
-  padding: 10px 20px; /* Adjust padding as needed */
-  font-size: 16px; /* Adjust font size as needed */
-  border: none; /* Remove border */
-  border-radius: 5px; /* Add some border radius */
-  cursor: pointer; /* Show pointer cursor on hover */
-  align-items: center;
+  padding: 10px 20px; 
+  font-size: 16px; 
+  border: none; 
+  border-radius: 5px;
+  cursor: pointer; 
+  
 }
 
 .predict-button:hover {
-  background-color: #ae27a5; /* Darker blue color on hover */
+  background-color: rgb(236, 41, 64); 
 }
 
 .form-container {
