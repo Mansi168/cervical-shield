@@ -7,7 +7,7 @@ const PredictPage = () => {
     <section className='cervix-section'>
       <div className='cervix-wrapper'>
       <div className='cervix-div'>
-            <div className='cervix-head' >Cervix Tool</div>
+            <div className='cervix-head' >Cervixify</div>
         </div>
 
         <div className='para-div'>
