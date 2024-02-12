@@ -5,7 +5,7 @@ const Header = () => (
   <header className='home-header'>
     <nav className="nav bd-container">
       <a href="/" className="nav__logo">
-        Pryde &#127987;&#65039;&#8205;&#127752;
+        CerviCare
       </a>
       <div className="nav__menu" id="nav-menu">
         <ul className="nav__list">
@@ -54,7 +54,7 @@ const Header = () => (
      Reading Area
     </h1>
     <p>
-    View a collection of resources related to sexual health <br></br>and how you can stay safe physically and mentally. <br></br>Spread love, be healthy, be you!
+    View a collection of resources related to Cervical Cancer <br></br>and how you can stay safe physically and mentally. <br></br>Spread love, be healthy, be you!
     </p>
   </header>
 );

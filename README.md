@@ -45,6 +45,10 @@ Rajni's journey with cervical cancer may have been challenging, but her resilien
 ### Predictive Model: 
 Our web app includes a state-of-the-art predictive model that analyzes various risk factors to provide personalized insights into an individual's risk of developing cervical cancer. Users can input relevant information, and the model will generate predictions and recommendations based on the latest medical research.
 
+
+https://github.com/i-am-SnehaChauhan/cervical-shield/assets/94298791/8b897487-a7a9-47b7-960a-9d1b82fcdfe7
+
+
 ### Interactive Chatbot:
 Engage with our interactive chatbot, designed to provide accurate information, answer questions, and offer support related to cervical cancer and women's health. Whether you have concerns about symptoms, screening options, or prevention strategies, our chatbot is here to help.
 
@@ -56,6 +60,12 @@ https://github.com/i-am-SnehaChauhan/cervical-shield/assets/94298791/7d1c2ec7-77
 
 ### Resource Section: 
 Explore our comprehensive resource section, featuring articles, guides, videos, and downloadable materials covering various topics related to cervical cancer awareness, prevention, screening, and treatment. Stay informed and empowered to take control of your health.
+
+
+
+https://github.com/i-am-SnehaChauhan/cervical-shield/assets/94298791/273e4e49-c2a8-4f64-8bfe-4ec29db6c9e7
+
+
 <h1 align='center'> Technology Stack Used</h1>
 <div align="center">
  <img src="https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white">
