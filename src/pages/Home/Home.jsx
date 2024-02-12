@@ -184,7 +184,7 @@ const Home = () => {
               <div className="button">
                 <a
                   // href="http://127.0.0.1:5500/cervical-shield/predict.html"
-                  href="/predictPage"
+                  href="https://5000-mansi168-cervicalshield-q36mtbivjad.ws-us108.gitpod.io/predict.html"
                   className="button-link"
                   style={{ color: "white" }}
                 >
