@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./src/index.css">
+    <link rel="stylesheet" type="text/css" href="src/index.css">
     <title>Predict Cervical Cancer Risk</title>
 </head>
 <body>
@@ -14,111 +14,162 @@
             </div>
 
             <div class="form-container">
-                <form action="/predict" method="post" class="predict-form">
+                <form action="/prediction" method="post" class="predict-form">
                     <label>
                         Age:
-                        <input type="text" name="age" />
+                        <input type="number" name="age" value=""/>
                     </label>
                     <label>
-                        Sexual Activity (years):
-                        <input type="text" name="sexualActivity" value="" onchange="handleChange(event)" />
+                        Number of sexual partners
+                        <input type="text" name="Number of sexual partners" value=""/>
                     </label>
                     <label>
-                        Pregnancies:
-                        <input type="text" name="pregnancies" value="" onchange="handleChange(event)" />
+                        First sexual intercourse
+                        <input type="text" name="First sexual intercourse" value=""/>
                     </label>
                     <label>
-                        HPV Vaccination (yes/no):
-                        <input type="text" name="hpvVaccination" value="" onchange="handleChange(event)" />
+                        Number of Pregnancies:
+                        <input type="text" name="pregnancies" value=""   />
                     </label>
                     <label>
-                        Age at First Sexual Intercourse:
-                        <input type="text" name="firstSexualIntercourse" value="" onchange="handleChange(event)" />
+                        Smokes:(1 for yes, 0 for No )
+                        <input type="text" name="smokes" value=""   />
                     </label>
                     <label>
                         Years of Smoking:
-                        <input type="text" name="smokesYears" value="" onchange="handleChange(event)" />
+                        <input type="text" name="smokesYears" value=""   />
                     </label>
                     <label>
-                        Packs of Cigarettes per Year:
-                        <input type="text" name="smokesPacksYears" value="" onchange="handleChange(event)" />
-                    </label>
-                    <label>
-                        Years of Hormonal Contraceptives Use:
-                        <input type="text" name="hormonalContraceptivesYears" value="" onchange="handleChange(event)" />
-                    </label>
-                    <label>
-                        Years of Intrauterine Device (IUD) Use:
-                        <input type="text" name="iudYears" value="" onchange="handleChange(event)" />
-                    </label>
-                    <label>
-                        STDs (yes/no) :
-                        <input type="text" name="stds" value="" onchange="handleChange(event)" />
-                    </label>
-                    <label>
-                        STDs (Number) : 
-                        <input type="text" name="stdNumber" value="" onchange="handleChange(event)" />
-                    </label>
-                    <label>
-                        HPV (yes/no) :
-                        <input type="text" name="hpv" value="" onchange="handleChange(event)" />
-                    </label>
-                    <label>
-                        Condylomatosis (yes/no) :
-                        <input type="text" name="condylomatosis" value="" onchange="handleChange(event)" />
-                    </label>
-                    <label>
-                        Number of Diagnosis :
-                        <input type="text" name="numberofdiagnosis" value="" onchange="handleChange(event)" />
-                    </label>
+                        <label>
+                            Smokes (pack/year)
+                            <input type="text" name="smokesPacks" value=""   />
+                        </label>
+                        <label>
+                            Hormonal Contraceptives Use(1 for yes, 0 for No ):
+                            <input type="text" name="hormonalContraceptives" value=""   />
+                        </label>
+                        <label>
+                            Years of Hormonal Contraceptives Use:
+                            <input type="text" name="hormonalContraceptivesYears" value=""   />
+                        </label>
+                        <label>
+                            Intrauterine Device (IUD) Use(1 for yes, 0 for No ):
+                            <input type="text" name="iud" value=""   />
+                        </label>
+                        <label>
+                            Years of Intrauterine Device (IUD) Use:
+                            <input type="text" name="iudYears" value=""   />
+                        </label>
+                        <label>
+                            STDs (yes/no) :
+                            <input type="text" name="stds" value=""   />
+                        </label>
+                        <label>
+                            STDs (Number) : 
+                            <input type="text" name="stdNumber" value=""   />
+                        </label>
+                        <label>
+                            STDs:condylomatosis :
+                            <input type="text" name="stdscondylomatosis" value=""   />
+                        </label>
+                        <label>
+                            STDs:cervical condylomatosis : 
+                            <input type="text" name="stdcervical condylomatosis" value=""   />
+                        </label>
+                        <label>
+                            STDs: vaginal condylomatosis:
+                            <input type="text" name="stds vaginal condylomatosis" value=""   />
+                        </label>
+                        <label>
+                            STDs: vulvo-perineal condylomatosis : 
+                            <input type="text" name="std vulvo-perineal condylomatosis" value=""   />
+                        </label>
+                        <label>
+                            STDs: syphilis :
+                            <input type="text" name="stds syphilis" value=""   />
+                        </label>
+                        <label>
+                            STDs :pelvic inflammatory : 
+                            <input type="text" name="std pelvic inflammatory" value=""   />
+                        </label>
+                        <label>
+                            STDs :genital herpes : 
+                            <input type="text" name="stdNumber" value=""   />
+                        </label>
+                        <label>
+                            STDs :molluscum contagiosum: 
+                            <input type="text" name="std molluscum contagiosum" value=""   />
+                        </label>
+                        <label>
+                            STDs :AIDS : 
+                            <input type="text" name="std AIDS" value=""   />
+                        </label>
+                        <label>
+                            STDs :HIV : 
+                            <input type="text" name="std HIV" value=""   />
+                        </label>
+                        <label>
+                            STDs :hepatitis B : 
+                            <input type="text" name="std hepatitis B" value=""   />
+                        </label>
+                        <label>
+                            STDs :HPV : 
+                            <input type="text" name="std HPV" value=""   />
+                        </label>
+                        <label>
+                            STDs :number of diagnoses : 
+                            <input type="text" name="std number of diagnoses" value=""   />
+                        </label>
+                        <label>
+                            STDs :time since first diagnosis: 
+                            <input type="text" name="std time since first diagnosis``" value=""   />
+                        </label>
+                        <label>
+                            STDs :time since last diagnosis: 
+                            <input type="text" name="std time since last diagnosis" value=""   />
+                        </label>    
                     <label>
                         Dx:Cancer (yes/no) :
-                        <input type="text" name="dxcancer" value="" onchange="handleChange(event)" />
+                        <input type="text" name="dxcancer" value=""   />
+                    </label>
+
+                    <label>
+                        Dx:CIN (1 for yes, 0 for No ) :
+                        <input type="text" name="dxcin" value=""   />
                     </label>
                     <label>
-                        Hepatitis B (yes/no) :
-                        <input type="text" name="hepotitisB" value="" onchange="handleChange(event)" />
+                        Dx:HPV (1 for yes, 0 for No ) :
+                        <input type="text" name="dxhpv" value=""   />
                     </label>
                     <label>
-                        Dx:CIN (yes/no) :
-                        <input type="text" name="dxcin" value="" onchange="handleChange(event)" />
+                        Dx (1 for yes, 0 for No ):
+                        <input type="text" name="dx" value=""   />
                     </label>
                     <label>
-                        Syphilis (yes/no) :
-                        <input type="text" name="syphilis" value="" onchange="handleChange(event)" />
+                        Hinselmann:
+                        <input type="text" name="Hinselmann" value=""   />
                     </label>
                     <label>
-                        Dx:HPV (yes/no) :
-                        <input type="text" name="dxhpv" value="" onchange="handleChange(event)" />
+                        Schiller:
+                        <input type="text" name="Schiller" value=""   />
                     </label>
                     <label>
-                        Pelvic Inflammatary Diseases (yes/no) :
-                        <input type="text" name="pelvicInflammatoryDis" value="" onchange="handleChange(event)" />
+                        Citology:
+                        <input type="text" name="Citology" value=""   />
                     </label>
                     <label>
-                        Genital Herpes (yes/no) :
-                        <input type="text" name="genitalherpes" value="" onchange="handleChange(event)" />
+                        Biopsy:
+                        <input type="text" name="Biopsy" value=""   />
                     </label>
-                    <label>
-                        Molluscum condylomatosis (yes/no) :
-                        <input type="text" name="molluscumcondylomatosis" value="" onchange="handleChange(event)" />
-                    </label>
-                    <label>
-                        AIDS (yes/no)  :
-                        <input type="text" name="aids" value="" onchange="handleChange(event)" />
-                    </label>
-                    <label>
-                        HIV (yes/no) :
-                        <input type="text" name="hiv" value="" onchange="handleChange(event)" />
-                    </label>
-                    
-                    <!-- More input fields go here -->
-                    
+
+                                        
                     <button type="submit" class="predict-button">Predict Risk</button>
                 </form>
             </div>
-            
-        {{pred}}
+         <div>
+     {pred}
+         </div>   
+       
         </div>
     </section>
 </body>
