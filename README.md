@@ -60,6 +60,12 @@ https://github.com/i-am-SnehaChauhan/cervical-shield/assets/94298791/7d1c2ec7-77
 
 ### Resource Section: 
 Explore our comprehensive resource section, featuring articles, guides, videos, and downloadable materials covering various topics related to cervical cancer awareness, prevention, screening, and treatment. Stay informed and empowered to take control of your health.
+
+
+
+https://github.com/i-am-SnehaChauhan/cervical-shield/assets/94298791/273e4e49-c2a8-4f64-8bfe-4ec29db6c9e7
+
+
 <h1 align='center'> Technology Stack Used</h1>
 <div align="center">
  <img src="https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white">
