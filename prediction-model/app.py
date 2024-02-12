@@ -2,7 +2,7 @@ from flask import Flask,request, url_for, redirect, render_template
 import pickle
 import numpy as np
 
-app = Flask(__name__, template_folder='.', static_folder='./src')
+app = Flask(__name__, template_folder='.', static_folder='../src')
 
 model=pickle.load(open('model.pkl','rb'))
 
