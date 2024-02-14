@@ -64,7 +64,7 @@ const Home = () => {
         <section className="home" id="home">
           <div className="home__container bd-container bd-grid">
             <div className="home__img">
-              <img src="https://res.cloudinary.com/damtnzoo8/image/upload/v1707665112/overview_sxzpl0.png" alt="" className="vert-move" />
+              <img src="https://res.cloudinary.com/dx0dgujbj/image/upload/v1707890116/CerviCare/Homepage/2_vh7goo.png" alt="" className="vert-move" />
             </div>
             <div className="home__data">
               <h1 className="home__title">Cervicare</h1>
@@ -86,7 +86,7 @@ const Home = () => {
               </p>
             </div>
             <div className="share__img">
-              <img src="https://res.cloudinary.com/damtnzoo8/image/upload/v1707665112/how_c4kqdb.png" alt="" className='vert-move' />
+              <img src="https://res.cloudinary.com/dx0dgujbj/image/upload/v1707890116/CerviCare/Homepage/1_xfeymh.png" alt="" className='vert-move' />
             </div>
           </div>
         </section>
@@ -133,7 +133,7 @@ const Home = () => {
           <div className="decoration__container bd-grid">
             <div className="decoration__data">
               <img
-                src="https://res.cloudinary.com/damtnzoo8/image/upload/v1707665111/reading_area_m5vyro.png"
+                src="https://res.cloudinary.com/dx0dgujbj/image/upload/v1707888470/CerviCare/Homepage/3_sbiawo.png"
                 alt=""
                 className="decoration__img"
                 id="apple_render"
@@ -153,7 +153,7 @@ const Home = () => {
             </div>
             <div className="decoration__data">
               <img
-                src="https://res.cloudinary.com/damtnzoo8/image/upload/v1707665112/bot_gndogd.png"
+                src="https://res.cloudinary.com/dx0dgujbj/image/upload/v1707888470/CerviCare/Homepage/4_mcgdyf.png"
                 alt=""
                 className="decoration__img"
                 id="burger_render"
@@ -173,7 +173,7 @@ const Home = () => {
             </div>
             <div className="decoration__data">
               <img
-                src="https://res.cloudinary.com/damtnzoo8/image/upload/v1707665112/prediction_mfmkxy.png"
+                src="https://res.cloudinary.com/dx0dgujbj/image/upload/v1707888470/CerviCare/Homepage/5_ukg3xj.png"
                 alt=""
                 className="decoration__img"
                 id="milk_render"
