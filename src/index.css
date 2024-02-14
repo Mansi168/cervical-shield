@@ -313,6 +313,7 @@ img {
   border-radius: 0.5rem;
   font-weight: var(--font-semi-bold);
   transition: 0.3s;
+  cursor:pointer;
 }
 
 .button:hover {
