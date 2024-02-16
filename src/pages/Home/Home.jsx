@@ -1,5 +1,10 @@
 import React from 'react'
+import { useAuth0 } from '@auth0/auth0-react';
+// const { logout } = useAuth0();
+
 const Home = () => {
+  const { isAuthenticated, loginWithRedirect } = useAuth0();
+
   return (
     <>
       {/*========== SCROLL TOP ==========*/}
@@ -22,18 +27,6 @@ const Home = () => {
                   About
                 </a>
               </li>
-              {/* 
-          <li className="nav__item">
-            <a href="#theme" className="nav__link ">
-              Theme
-            </a>
-          </li>
-          <li className="nav__item">
-            <a href="#events" className="nav__link">
-              Events
-            </a>
-          </li> */}
-              {/* <li class="nav__item"><a href="#timeline" class="nav__link">Timeline</a></li> */}
               <li className="nav__item">
                 <a href="#features" className="nav__link">
                   Features
@@ -61,7 +54,7 @@ const Home = () => {
       </header>
       <main className="l-main">
         {/*========== Welcome ==========*/}
-        <section className="home" id="home">
+        <section className="home" id="home">         
           <div className="home__container bd-container bd-grid">
             <div className="home__img">
               <img src="https://res.cloudinary.com/dx0dgujbj/image/upload/v1707890116/CerviCare/Homepage/2_vh7goo.png" alt="" className="vert-move" />
@@ -90,43 +83,7 @@ const Home = () => {
             </div>
           </div>
         </section>
-        {/* ================  =================
-    <section className="share section bd-container" id="learn_more">
-      <div className="share__container bd-grid">
-        <div className="share__data">
-          <img src="./img/GDSC.png" alt="" />
-        </div>
-        <div className="share__img about__GDSC">
-          <h2 className="section-title-center">
-            About <br /> GDSC IGDTUW 🌍{" "}
-          </h2>
-          <p className="share__description">
-            GDSC IGDTUW is a community interested in exploring new technology.
-            Our club promotes various Google technologies and aims to help the
-            students to nurture their passion for technology and build projects
-            that positively impact the society.
-          </p>
-        </div>
-      </div>
-    </section>
-    {/* =============Theme UN SDG============ */}
-        {/* <section className="share section bd-container" id="theme">
-      <div className="share__container bd-grid">
-        <div className="share__data">
-          <h2 className="section-title-center">Theme 🌟</h2>
-          <p className="share__description">
-            The Sustainable Development Goals or Global Goals are a collection
-            of 17 interlinked global goals designed to be a "blueprint to
-            achieve a better and more sustainable future for all". The SDGs were
-            set up in 2015 by the United Nations General Assembly and are
-            intended to be achieved by the year 2030.
-          </p>
-        </div>
-        <div className="share__img">
-          <img src="./img/SDG.png" alt="" />
-        </div>
-      </div>
-    </section>  */}
+ 
         {/*========== CATEGORIES ==========*/}
         <section className="decoration section bd-container" id="features">
           <h2 className="section-title">Features of Cervicare</h2>
@@ -140,7 +97,7 @@ const Home = () => {
               />
               <h3 className="decoration__title">Reading Area</h3>
               <p>View a collection of resources related to sexual health and how you can stay safe physically and mentally. Spread love, be healthy, be you!</p><br></br>
-              {/*<a href="./view/designsolve.html" class="button button-link">Details</a>*/}
+
               <div className="button">
                 <a
                   href="./readingArea"
@@ -182,21 +139,26 @@ const Home = () => {
               <p>
                 A predictive model for cervical cancer, uses advanced algorithms to analyze risk factors and medical data to forecast cancer likelihood! </p><br></br>
               <div className="button">
+                {isAuthenticated ?(
                 <a
-                  // href="http://127.0.0.1:5500/cervical-shield/predict.html"
                   href="https://cervical-shield.onrender.com/"
                   className="button-link"
                   style={{ color: "white" }}
                 >
                   Try Here
-                </a>
+                </a>):(
+                  <a
+                  href="#"
+                  onClick={loginWithRedirect}
+                  className="button-link"
+                  style={{ color: "white" }}
+                >
+                  Login to use this feature
+                  </a>
+                )}
+                
               </div>
-              {/*<div 
-                    class="apply-button" 
-                    data-hackathon-slug="hack-n-solve" 
-                    data-button-theme="light"
-                    style="height: 44px; width: 312px"
-                  ></div>*/}
+
             </div>
           </div>
         </section>
