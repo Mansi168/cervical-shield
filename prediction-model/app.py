@@ -1,7 +1,7 @@
 from flask import Flask,request, url_for, redirect, render_template
 import pickle
 import numpy as np
-
+from sklearn.preprocessing import StandardScaler
 app = Flask(__name__, template_folder='.', static_folder='../src')
 
 model=pickle.load(open('model.pkl','rb'))
@@ -16,10 +16,12 @@ def hello_world():
 def predict():
     int_features = [int(x) if x else 0 for x in request.form.values()]
     final=[np.array(int_features)]
-    print(int_features)
+    
     print(final)
     predictionn=model.predict_proba(final)
-    output='{0:.{1}f}'.format(predictionn[0][1], 2)
+    print("The prediction is",predictionn)
+    output='{0:.{1}f}'.format(predictionn[0][0], 2)
+    print("The output is",output)
 
     if output > str(0.5):
         result_text = 'You may have Cervical Cancer.\nProbability of having it is {}'.format(output)

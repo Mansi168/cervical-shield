@@ -148,7 +148,6 @@ const Home = () => {
                   Try Here
                 </a>):(
                   <a
-                  href="#"
                   onClick={loginWithRedirect}
                   className="button-link"
                   style={{ color: "white" }}
