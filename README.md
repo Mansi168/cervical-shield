@@ -29,7 +29,7 @@ Rajni's journey with cervical cancer may have been challenging, but her resilien
 ### Landing page
  <p>Welcome to CervicalShield! Explore our website and discover valuable resources to support your cervical health journey.</p>
  
- ![image](https://github.com/i-am-SnehaChauhan/cervical-shield/assets/94298791/5f984259-2600-4cf2-9fe6-c0672f69e5c6)
+ ![image](https://github.com/i-am-SnehaChauhan/cervical-shield/assets/94298791/e01b36c1-33d7-49ed-af79-f76c0f4c8b83)
 
 
 
@@ -38,7 +38,8 @@ Rajni's journey with cervical cancer may have been challenging, but her resilien
 <p>Learn more about CervicalShield and the team behind our mission to empower women's health.</p>
  
 
-![image](https://github.com/i-am-SnehaChauhan/cervical-shield/assets/94298791/6230bda6-2a9c-41bb-b2d0-efd629dd514f)
+![image](https://github.com/i-am-SnehaChauhan/cervical-shield/assets/94298791/9dfa691f-f3eb-493b-ab42-c5b267126b76)
+
 
 
 # Key Features✨
