@@ -57,7 +57,7 @@ const Home = () => {
         <section className="home" id="home">         
           <div className="home__container bd-container bd-grid">
             <div className="home__img">
-              <img src="https://res.cloudinary.com/dx0dgujbj/image/upload/v1707890116/CerviCare/Homepage/2_vh7goo.png" alt="" className="vert-move" />
+              <img src="https://res.cloudinary.com/damtnzoo8/image/upload/v1707665112/overview_sxzpl0.png" alt="" className="vert-move" />
             </div>
             <div className="home__data">
               <h1 className="home__title">Cervicare</h1>
@@ -79,7 +79,7 @@ const Home = () => {
               </p>
             </div>
             <div className="share__img">
-              <img src="https://res.cloudinary.com/dx0dgujbj/image/upload/v1707890116/CerviCare/Homepage/1_xfeymh.png" alt="" className='vert-move' />
+              <img src="https://res.cloudinary.com/damtnzoo8/image/upload/v1707665112/how_c4kqdb.png" alt="" className='vert-move' />
             </div>
           </div>
         </section>
